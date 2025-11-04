@@ -1,0 +1,39 @@
+.maintenance-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 110vh;
+  color:black;
+  text-align: center;
+  background-image: url('../images/sitemaintenance.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+  
+  .maintenance-page h1 {
+    font-size: 2.0rem;
+    font-weight:bold;
+    margin: 0;
+    font-family: cursive;
+  }
+  
+  .maintenance-page p {
+    font-weight:bold;
+    margin: 0;
+    font-family: cursive;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 30px; 
+    left: 40px; 
+    width: 200px; 
+  }
+
+
+
+  

@@ -1,0 +1,195 @@
+.password_input .mdi-eye,
+.password_input .mdi-eye-off {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  cursor: pointer;
+  padding: 14px;
+}
+/* .custom-slider > .slick-slider {
+  clip-path: circle(40%);
+  position: relative;
+} */
+
+.custom-slider .image_wrapper img {
+  clip-path: circle(50%);
+  object-fit: cover;
+}
+
+.custom-slider .slick-slider .slick-arrow {
+  display: none !important;
+}
+
+/* .custom-slider  .slick-slider .slick-arrow.slick-prev{
+  left: 170px;
+  top: 300px;
+  background: black;
+  border-radius: 40px;
+}
+.slick-slider .slick-arrow.slick-prev::before, .slick-slider .slick-arrow.slick-next::before{
+  font-size: 20px;
+}
+
+.custom-slider .slick-slider .slick-arrow.slick-next{
+  right: 25px;
+    top: 300px;
+    background: black;
+    border-radius: 20px;
+} */
+
+.card .card-body .table tbody tr td,
+.card .card-body .table tbody tr th {
+  border-top: none;
+  border-bottom: none;
+}
+
+.accordion-solid-header .card-body table tbody th,
+.accordion-solid-header .card-body table tbody td {
+  border-top: none;
+}
+.form-check-align {
+  margin-left: 10px;
+}
+.today-matches {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* 17-03-2023 */
+/* ul li {
+  list-style: none;
+  display: inline;
+  margin: 0px 20px 0px 0px;
+} */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.modal .table td {
+  border-top: none !important;
+}
+
+.modal .table tbody td:nth-child(2) {
+  white-space: inherit;
+}
+
+.empty_notification {
+  height: 150px;
+  width: 230px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #b7b4b4;
+}
+
+.notify_list_type {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.notify_list_type i {
+  font-size: 30px;
+}
+
+.custome_num_input::-webkit-outer-spin-button,
+.custome_num_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.custome_num_input {
+  -moz-appearance: textfield;
+}
+
+.notification_wrapper {
+  padding: 10px;
+}
+
+.notification_wrapper:hover {
+  background: #f2edf3;
+  border-radius: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+
+.is_read_notification {
+  padding: 10px;
+  background: #f2edf3;
+  border-radius: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+
+.download_report_field_wrapper .form-check {
+  width: max-content;
+}
+
+.custome_card_padding .card-body {
+  padding: 1.25rem;
+}
+
+.dash_card_wrap .icon-lg {
+  font-size: 2.438rem;
+}
+
+.plans_card_wrap .menu-icon {
+  font-size: 2.438rem;
+  color: #bba8bff5;
+}
+
+.password_input {
+  position: relative;
+}
+
+.matches_card {
+  height: 230px;
+}
+
+.image_wrapper img {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.staff_password_input {
+  position: relative;
+}
+
+.staff_password_input .mdi-eye,
+.staff_password_input .mdi-eye-off {
+  position: absolute;
+  top: 13px;
+  right: 36px;
+  cursor: pointer;
+}
+
+.image_upload_profile_wrapper img {
+  height: 250px;
+  width: 100%;
+}
+
+.image_upload_profile_wrapper .prev_btn {
+  position: absolute;
+  top: 110px;
+  left: -50px;
+  z-index: 1;
+}
+
+.image_upload_profile_wrapper .next_btn {
+  position: absolute;
+  top: 110px;
+  right: -50px;
+  z-index: 1;
+}
+
+.default_img_profile img {
+  width: 300px;
+  height: 300px;
+}
+.nav-cron a{
+  color: #000;
+}

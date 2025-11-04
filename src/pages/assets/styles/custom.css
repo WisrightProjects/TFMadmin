@@ -1,0 +1,255 @@
+.card .profile_card_body_details {
+  margin: 10px 10px 10px 0px !important;
+}
+
+/* .profile_photos_wrapper {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0px 2px 20px lightgray;
+} */
+
+.profile_photos_wrapper {
+  width: 210px;
+}
+
+.profile_photos_wrapper img {
+  width: 200px;
+  height: 230px;
+}
+
+.profile_edit_img_wrapper {
+  width: 250px;
+  height: 300px;
+}
+.profile_edit_img_wrapper img {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* .profile_photos_wrapper .slick-slider img {
+  width: 180px !important;
+  height: 210px !important;
+} */
+
+.spinner_wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cbx {
+  position: relative;
+  top: 1px;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #c8ccd4;
+  border-radius: 3px;
+  vertical-align: middle;
+  transition: background 0.1s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.cbx:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  width: 7px;
+  height: 14px;
+  opacity: 0;
+  transform: rotate(45deg) scale(0);
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease;
+  transition-delay: 0.15s;
+}
+
+.lbl {
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#cbx:checked ~ .cbx {
+  border-color: transparent;
+  background: #6871f1;
+  animation: jelly 0.6s ease;
+}
+
+#cbx:checked ~ .cbx:after {
+  opacity: 1;
+  transform: rotate(45deg) scale(1);
+}
+
+.cntr {
+  position: relative;
+}
+
+@keyframes jelly {
+  from {
+    transform: scale(1, 1);
+  }
+
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+
+  65% {
+    transform: scale(0.95, 1.05);
+  }
+
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+.hidden-xs-up {
+  display: none !important;
+}
+
+.navbar
+  .navbar-menu-wrapper
+  .navbar-nav
+  .nav-item.dropdown
+  .dropdown-menu.navbar-dropdown {
+  position: absolute !important;
+  font-size: 0.9rem;
+  margin-top: 0;
+  padding: 0;
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .dropdown-menu {
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.plan_update_apply_coupon {
+  cursor: pointer;
+}
+
+.plan_update_apply_coupon:hover {
+  text-decoration: underline;
+}
+
+.contact_notification,
+.contact_notification::before {
+  border: 3px solid #fe7c96 !important;
+  border-radius: 30px;
+  animation: blickNotification 2s infinite;
+  padding: 5px;
+}
+
+@keyframes blickNotification {
+  0% {
+    -moz-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: scale(0.1);
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.profile_view_scrollbar::-webkit-scrollbar {
+  scrollbar-width: 5px;
+  width: 5px;
+}
+
+.profile_view_scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.profile_view_scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #da8cff, #9a55ff);
+  border-radius: 10px;
+}
+
+.profile_view_scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #da8cff, #9a55ff);
+}
+
+.accordion.accordion-solid-header
+  .card
+  .card-header
+  a[aria-expanded="false"]:before {
+  content: "↓" !important;
+}
+
+.accordion.accordion-solid-header
+  .card
+  .card-header
+  a[aria-expanded="true"]:before {
+  content: "↑" !important;
+}
+
+.profile-upload-image-wrapper img {
+  height: 200px;
+  object-fit: fill;
+}
+
+.edit_profile_nav-items .nav-item {
+  margin-right: 5px;
+}
+
+.edit_profile_nav-items {
+  /* overflow-x: scroll; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.edit_profile_nav-items::-webkit-scrollbar {
+  height: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.edit_profile_nav-items::-webkit-scrollbar-thumb {
+  background-color: #fe7c96;
+  border-radius: 10px;
+}
+
+.logo-mini-wrapper {
+  height: 40px;
+  /* border: 1px solid #e7e6e6;
+  border-radius: 50px; */
+  line-height: 18px;
+  display: flex;
+  width: 40px;
+  align-items: center;
+  margin: auto;
+}
+
+.logo-mini-wrapper img {
+  object-fit: scale-down;
+  clip-path: circle(60%);
+}
+
+.goverment-identity-wrapper {
+  width: 300px;
+  height: 300px;
+}
+
+.goverment-identity-wrapper img {
+  width: 100%;
+}
